@@ -1,94 +1,72 @@
-<div align="center">
-
-# 🦈 Wireshark Network Traffic Analysis
-
-### Capture • Inspect • Filter • Analyze Live Network Traffic
-
-<img src="https://img.shields.io/badge/Wireshark-4.6.6-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Platform-Windows%2011-0078D6?style=for-the-badge&logo=windows"/>
-
-<img src="https://img.shields.io/badge/Npcap-1.88-success?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Level-Beginner--Intermediate-blueviolet?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Category-Network%20Analysis-orange?style=for-the-badge"/>
-
-</div>
-
----
-<p align="center">
-
-<a href="https://github.com/abhiramyadav03">
-<img src="https://img.shields.io/badge/GitHub-abhiramyadav03-181717?style=for-the-badge&logo=github"/>
-</a>
-
-<a href="https://www.linkedin.com/in/rapothulaabhiram/">
-<img src="https://img.shields.io/badge/LinkedIn-Abhiram%20Rapothula-0A66C2?style=for-the-badge&logo=linkedin"/>
-</a>
-
-</p>
-
-# 📖 Overview
-
-This project demonstrates how to capture, inspect, filter, and analyze live network traffic using **Wireshark** in a Windows 11 lab environment.
-
-The primary objective is to understand how network communication occurs between devices by analyzing common protocols such as **DNS, TCP, TLS, ICMP, ARP, and QUIC**. Using Wireshark's powerful display filters and packet inspection capabilities, this lab develops practical packet analysis skills that are essential for **SOC Analysts, Incident Responders, Network Security Analysts, and Blue Team professionals**.
-
----
-
-# 🎯 Objectives
-
-- Capture live network traffic.
-- Identify common network protocols.
-- Analyze packet structure.
-- Apply Wireshark display filters.
-- Observe DNS name resolution.
-- Understand TCP communication.
-- Examine encrypted TLS traffic.
-- Analyze ICMP Echo Requests and Replies.
-- Inspect ARP packets.
-- Develop packet analysis skills.
-
----
-
-# 📑 Table of Contents
-
-- [Lab Environment](#-lab-environment)
-- [Tools Used](#-tools-used)
-- [Methodology](#-methodology)
-- [Packet Capture](#-packet-capture)
-- [Protocol Analysis](#-protocol-analysis)
-- [Display Filters](#-display-filters)
-- [Screenshots](#-screenshots)
-- [Key Findings](#-key-findings)
-- [Skills Demonstrated](#-skills-demonstrated)
-- [Learning Outcomes](#-learning-outcomes)
-- [References](#-references)
-
----
-
-# 🖥️ Lab Environment
-
-| Component | Details |
-|-----------|----------|
-| Operating System | Windows 11 |
-| Packet Analyzer | Wireshark 4.6.6 |
-| Packet Driver | Npcap 1.88 |
-| Browser | Microsoft Edge |
-| Network Interface | Wi-Fi |
-| Traffic Generated | Web Browsing, DNS Queries, Ping Requests |
-
----
-
-# 🛠️ Tools Used
-
-| Tool | Purpose |
-|------|----------|
-| Wireshark | Packet Capture & Analysis |
-| Npcap | Packet Capture Driver |
-| Windows 11 | Host Operating System |
-| Microsoft Edge | Generate Web Traffic |
-| Command Prompt | Generate ICMP Traffic |
+🦈 Wireshark Network Traffic Analysis
+Capture • Inspect • Filter • Analyze Live Network Traffic
+![Wireshark](https://img.shields.io/badge/Wireshark-4.6.6-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![Windows](https://img.shields.io/badge/Platform-Windows%2011-0078D6?style=for-the-badge&logo=windows)
+![Npcap](https://img.shields.io/badge/Npcap-1.88-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+📖 Overview
+This project demonstrates packet capture and protocol analysis using Wireshark in a Windows 11 lab environment. It covers DNS, TCP, TLS, ICMP, ARP and QUIC traffic to build packet analysis skills for SOC and Blue Team roles.
+🎯 Objectives
+Capture live traffic
+Analyze common protocols
+Apply Wireshark display filters
+Understand packet structure
+Practice network troubleshooting
+🖥️ Lab Environment
+Component	Details
+OS	Windows 11
+Wireshark	4.6.6
+Npcap	1.88
+Browser	Microsoft Edge
+🛠️ Tools Used
+Tool	Purpose
+Wireshark	Packet capture
+Npcap	Capture driver
+Windows 11	Host OS
+CMD	ICMP testing
+🔬 Methodology
+Launch Wireshark.
+Select Wi-Fi interface.
+Start capture.
+Generate traffic.
+Apply filters.
+Analyze packets.
+📊 Display Filters
+Filter	Purpose
+dns	DNS
+tcp	TCP
+tls	TLS
+icmp	ICMP
+arp	ARP
+quic	QUIC
+🖼️ Screenshots
+Full Capture: ![](01-full_capture.png)
+DNS: ![](02-dns_filter.png)
+TCP: ![](03-tcp_filter.png)
+TLS: ![](04-tls_filter.png)
+ICMP: ![](05-icmp_filter.png)
+ARP: ![](06-arp_filter.png)
+🔍 Key Findings
+Captured live traffic successfully.
+Observed DNS resolution.
+Analyzed TCP communication.
+Identified encrypted TLS traffic.
+Examined ICMP and ARP packets.
+💡 Skills Demonstrated
+Packet Capture
+Packet Analysis
+DNS Analysis
+TCP/IP
+TLS
+Network Troubleshooting
+🎓 Learning Outcomes
+Understand packet flow.
+Use Wireshark display filters.
+Analyze common network protocols.
+📚 References
+https://www.wireshark.org/docs/
+https://wiki.wireshark.org/
+👨‍💻 Author
+Abhiram Rapothula
+GitHub: https://github.com/abhiramyadav03
+LinkedIn: https://www.linkedin.com/in/rapothulaabhiram/
