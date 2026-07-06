@@ -19,6 +19,17 @@
 </div>
 
 ---
+<p align="center">
+
+<a href="https://github.com/abhiramyadav03">
+<img src="https://img.shields.io/badge/GitHub-abhiramyadav03-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://www.linkedin.com/in/rapothulaabhiram/">
+<img src="https://img.shields.io/badge/LinkedIn-Abhiram%20Rapothula-0A66C2?style=for-the-badge&logo=linkedin"/>
+</a>
+
+</p>
 
 # 📖 Overview
 
